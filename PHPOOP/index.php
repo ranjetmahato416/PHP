@@ -87,4 +87,18 @@ class Car extends Bike{
 
 $tesla = new Car('gray', 'S-plaid', '1200');
 $tesla->details();
+
+//Constants
+class Greeting{
+    const Leaving_Message = 'Thank you for visiting Janakpurdham.<br>';
+    const Welcome = "Welcome to Janakpurdham.<br>";
+    function byebye(){
+        return self::Leaving_Message;//accessing constant inside class
+    }
+
+}
+
+echo Greeting::Welcome;
+$goodbye = new Greeting();
+echo $goodbye->byebye();
 ?>
