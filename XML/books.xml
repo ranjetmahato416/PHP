@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book category = "Children">
+        <title lang = "en">The Lord of the Rings</title>
+        <author>J.R.R. Tolkien</author>
+        <year>1954</year>
+        <price>$30.00</price>
+    </book>
+    <book category = "Children">
+        <title lang = "en">Harry Potter</title>
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <price>$47.99</price>
+    </book>
+    <book category = "Web">
+        <title lang = "en">XQuery</title>
+        <author>Ranjeet</author>
+        <year>2018</year>
+        <price>$70.25</price>
+    </book>
+    <book category = "Web">
+        <title lang = "en">Web Technology</title>
+        <author>Sandip Sky</author>
+        <year>2019</year>
+        <price>$49.99</price>
+    </book>
+</bookstore>
